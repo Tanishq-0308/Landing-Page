@@ -1,0 +1,124 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: 'Times New Roman', Times, serif;
+    color: white;
+    background-color: black;
+}
+
+.container {
+  max-width: 90rem;
+  margin: 7rem 0rems;
+  padding: 60px 2rem;
+  border: 1px solid black;
+  display: flex;
+  
+}
+
+/* .row {
+    width: 1000px;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    justify-content: center;
+    align-items: center;
+  } */
+  .learnmore{
+    margin-top: 5rem;
+  }
+
+.image-fluid{
+    max-width: 90%;
+
+}
+.logo img{
+    width: 75px;
+    height: 75px;
+    border: 4px solid red;
+    border-radius: 41px;
+}
+
+.navigation{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1rem 3rem;
+
+}
+
+.items {
+    display: flex;
+    align-items: center;
+    gap: 30px;
+}
+
+.items a:link{
+    color: white;
+    text-decoration: none;
+    font-size: 1.8rem;
+    font-weight: bold;
+}
+
+.items a:hover {
+    color: red;
+}
+
+.active{
+    color: red !important;
+}
+a{
+    color: white;
+    font-size: 20px;
+
+}
+
+button{
+    font-size: 2rem;
+    padding: 0.6rem 1rem;
+    cursor: pointer;
+    background: linear-gradient(to right, #c31432,#802011) ;  
+    color: white;
+    border: none;
+    border-radius: 10px;
+    font-weight: bold;
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+    
+}
+
+button:hover{
+    color: red;
+    background: white ;
+}
+
+
+.trial{
+    color: red;
+}
+
+.hero-heading{
+    font-size: 2rem;
+    margin-bottom: 0.9rem;
+}
+
+.hero{
+    color: grey;
+    margin-bottom: 0.9rem;
+}
+.user{
+    display: flex;
+}
+.user img{
+    width: 20px;
+    height: 20px;
+    border: 4px solid red;
+    border-radius: 41px;
+}
+
+.phone img{
+    width: 700px;
+    height: 400px;
+    
+}
